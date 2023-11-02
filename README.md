@@ -1,3 +1,4 @@
+
 #User story
 As a movie enthusiast who wants to enjoy a meal while watching a movie,
 I want an Application that suggests restaurants based on location, customer rating, distance, price range,
@@ -28,3 +29,10 @@ So that I can conveniently order food and enjoy it while watching a movie.
 - The application should have a feature to rate and provide feedback on the delivered food and overall restaurant experience.
 
 - It should have a responsive customer support system to address any queries or issues related to ordering food or watching a movie simultaneously.
+=======
+# Food Picker 3000
+
+Sources:
+Emojis:
+Slot Machine animation:
+
