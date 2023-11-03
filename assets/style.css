@@ -1,4 +1,7 @@
 /* This is for the food slot machine */
+/* link to import Bulma */
+@import "https://cdn.jsdelivr.net/npm/bulma@0.9.4/css/bulma.min.css";
+
 .header {
   padding: 20px;
   text-align: center;
