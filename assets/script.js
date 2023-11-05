@@ -104,3 +104,5 @@
  okayButton.addEventListener('click', () => {
   modal.classList.remove('is-active');
  });
+
+ // End Modal section //
