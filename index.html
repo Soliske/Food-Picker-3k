@@ -14,7 +14,7 @@
             <p>Don't know what to eat? We got you!</p>
           </div>
     </header>
-<!-- checking it -->
+
     <!-- First slot machine for food choices -->
         <div id="app">
             <div class="doors">
@@ -72,28 +72,28 @@
       </div>
       <footer>
         <p>Made by Dakota, Kevin, & John</p>
-        <p><a href="mailto:hege@example.com">hege@example.com</a></p>
+        <!-- <p><a href="mailto:hege@example.com">hege@example.com</a></p> -->
       </footer>
 
       <!-- THIS IS STRICTLY FOR BULMA CSS MODAL -->
+      <!-- TODO: We want to remove 'is-active' upon clicking btn on modal -->
       <div class="modal is-active">
 
         <div class="modal-background"></div>
         
-        
-        <!-- content -->
+        <!-- Modal content -->
         <div class="modal-content">
           <div class="box">
             <p class="title mb-6"> How to use: <br>
               <h3 class="content is-medium">
-              1. Click 'Spin' to generate a recommendation <br>
+              1. Click 'Spin' to generate a food recommendation <br>
               2. Click 'Spin' on second slot machine to generate Movie recommendation <br>
               3. Click 'Reset' to generate new recommendation. Maybe the stars weren't aligned? </h3>
             </p>
           </div>
         </div>
 
-        <button class="modal-content" data-target="modal-js-example">
+        <button class="modal-content" id="modalbutton">
           Okay, Let's Eat!
         </button>
 
