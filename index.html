@@ -3,6 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.4/css/bulma.min.css">
     <link rel="stylesheet" href="./assets/style.css">
     <title>Food Picker 3000</title>
 </head>
@@ -37,7 +38,7 @@
             </div>
           
             <div class="buttons">
-              <button id="spinner">Spin</button>
+              <button style="margin: 5px;" id="spinner">Spin</button>
               <button id="reseter">Reset</button>
             </div>
           </div>
@@ -65,14 +66,39 @@
         </div>
       
         <div class="buttons">
-          <button id="spinner">Spin</button>
+          <button style="margin: 5px;" id="spinner">Spin</button>
           <button id="reseter">Reset</button>
         </div>
       </div>
-<script src="./assets/script.js"></script>
       <footer>
         <p>Made by Dakota, Kevin, & John</p>
         <p><a href="mailto:hege@example.com">hege@example.com</a></p>
       </footer>
+
+      <!-- THIS IS STRICTLY FOR BULMA CSS MODAL -->
+      <div class="modal is-active">
+
+        <div class="modal-background"></div>
+        
+        
+        <!-- content -->
+        <div class="modal-content">
+          <div class="box">
+            <p class="title mb-6"> How to use: <br>
+              <h3 class="content is-medium">
+              1. Click 'Spin' to generate a recommendation <br>
+              2. Click 'Spin' on second slot machine to generate Movie recommendation <br>
+              3. Click 'Reset' to generate new recommendation. Maybe the stars weren't aligned? </h3>
+            </p>
+          </div>
+        </div>
+
+        <button class="modal-content" data-target="modal-js-example">
+          Okay, Let's Eat!
+        </button>
+
+        </div>
+        </div>
+        <script src="./assets/script.js"></script>
 </body>
 </html>
