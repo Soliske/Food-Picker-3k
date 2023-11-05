@@ -93,7 +93,7 @@
 
   // FOR BULMA CSS MODAL //
  const okayButton = document.querySelector('#modalbutton');
- const modalBg = document.querySelector('.modal-content');
+ const modalBg = document.querySelector('.modal-background');
  const modal = document.querySelector('.modal');
 
 //  Only using 'okayButton' function for now //
