@@ -31,7 +31,7 @@ So that I can conveniently order food and enjoy it while watching a movie.
 - It should have a responsive customer support system to address any queries or issues related to ordering food or watching a movie simultaneously.
 =======
 # Food Picker 3000
-App URL: https://soliske.github.io/project1/
+App URL: https://soliske.github.io/Food-Picker-3k/
 Repo URL: https://github.com/Soliske/Food-Picker-3k
 Sources:
 Emojis:
