@@ -3,11 +3,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<<<<<<< Updated upstream
-=======
     <link href="https://api.themoviedb.org/3/movie/157336?api_key=53db825161ad7fa9d7ad80815c4cb74b&append_to_response=images">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.4/css/bulma.min.css">
->>>>>>> Stashed changes
     <link rel="stylesheet" href="./assets/style.css">
     <title>Food Picker 3000</title>
 </head>
@@ -42,7 +39,7 @@
             </div>
           
             <div class="buttons">
-              <button id="spinner">Spin</button>
+              <button style="margin: 5px;" id="spinner">Spin</button>
               <button id="reseter">Reset</button>
             </div>
           </div>
@@ -70,19 +67,42 @@
         </div>
       
         <div class="buttons">
-<<<<<<< Updated upstream
           <button id="spinner">Spin</button>
+          <button style="margin: 5px;" id="spinner">Spin</button>
           <button id="reseter">Reset</button>
-=======
           <button style="margin: 5px;" id="spinnert">Spin</button>
           <button id="resetert">Reset</button>
->>>>>>> Stashed changes
         </div>
       </div>
-<script src="./assets/script.js"></script>
       <footer>
         <p>Made by Dakota, Kevin, & John</p>
-        <p><a href="mailto:hege@example.com">hege@example.com</a></p>
+        <!-- <p><a href="mailto:hege@example.com">hege@example.com</a></p> -->
       </footer>
+
+      <!-- THIS IS STRICTLY FOR BULMA CSS MODAL -->
+      <!-- TODO: We want to remove 'is-active' upon clicking btn on modal -->
+      <div class="modal is-active">
+
+        <div class="modal-background"></div>
+        
+        <!-- Modal content -->
+        <div class="modal-content">
+          <div class="box">
+            <p class="title mb-6"> How to use: <br>
+              <h3 class="content is-medium">
+              1. Click 'Spin' to generate a food recommendation <br>
+              2. Click 'Spin' on second slot machine to generate Movie recommendation <br>
+              3. Click 'Reset' to generate new recommendation. Maybe the stars weren't aligned? </h3>
+            </p>
+          </div>
+        </div>
+
+        <button class="modal-content" id="modalbutton">
+          Okay, Let's Eat!
+        </button>
+<!-- End of Modal section -->
+        </div>
+        </div>
+        <script src="./assets/script.js"></script>
 </body>
 </html>

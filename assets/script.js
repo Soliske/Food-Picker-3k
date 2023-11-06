@@ -87,11 +87,7 @@
       }
       return arr;
     }
-  
     init();
-<<<<<<< Updated upstream
-  })();
-=======
   })();
 
   (function () {
@@ -238,6 +234,4 @@
  okayButton.addEventListener('click', () => {
   modal.classList.remove('is-active');
  });
-
- // End Modal section //
->>>>>>> Stashed changes
+// End Modal //
