@@ -3,6 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://api.themoviedb.org/3/movie/157336?api_key=53db825161ad7fa9d7ad80815c4cb74b&append_to_response=images">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.4/css/bulma.min.css">
     <link rel="stylesheet" href="./assets/style.css">
     <title>Food Picker 3000</title>
@@ -45,20 +46,20 @@
 
     <!-- Second slot machine for movie choices -->
     <div id="app">
-        <div class="doors">
-          <div class="door">
+        <div class="windows">
+          <div class="window">
             <div class="boxes">
               <!-- <div class="box">Placeholder</div> -->
             </div>
           </div>
       
-          <div class="door">
+          <div class="window">
             <div class="boxes">
               <!-- <div class="box">Placeholder</div> -->
             </div>
           </div>
       
-          <div class="door">
+          <div class="window">
             <div class="boxes">
               <!-- <div class="box">Placeholder</div> -->
             </div>
@@ -66,8 +67,11 @@
         </div>
       
         <div class="buttons">
+          <button id="spinner">Spin</button>
           <button style="margin: 5px;" id="spinner">Spin</button>
           <button id="reseter">Reset</button>
+          <button style="margin: 5px;" id="spinnert">Spin</button>
+          <button id="resetert">Reset</button>
         </div>
       </div>
       <footer>
@@ -96,7 +100,7 @@
         <button class="modal-content" id="modalbutton">
           Okay, Let's Eat!
         </button>
-
+<!-- End of Modal section -->
         </div>
         </div>
         <script src="./assets/script.js"></script>
