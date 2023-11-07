@@ -35,5 +35,5 @@ App URL: https://soliske.github.io/Food-Picker-3k/
 Repo URL: https://github.com/Soliske/Food-Picker-3k
 Sources:
 Emojis: https://symbl.cc/en/1F33D/
-Slot Machine animation: https://medium.com/@victortoschi/how-to-create-a-slot-machine-animation-with-css-and-javascript-9073ab9db9ea
+Slot Machine animation: https://medium.com/
 
